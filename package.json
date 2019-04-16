@@ -1,0 +1,17 @@
+{
+  "name": "game101",
+  "version": "1.0.0",
+  "description": "## IMPORTANT Due to CORS on the localhost, please install Chrome extention: [Allow-Control-Allow-Origin: *](https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en) and enable the CORS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Yunfei Li",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  }
+}
